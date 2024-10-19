@@ -7,7 +7,7 @@ def processar_arquivo(novo_nome_arquivo):
     arquivo_excel = fr'C:\Users\ryane\Desktop\Projetos Python Automação\Projeto1\{novo_nome_arquivo}'
     df = pd.read_excel(arquivo_excel)
 
-    # Remover as linhas de índice 0 a 7 (descomente se necessário)
+    # Remover as linhas de índice 0 a 7
     # df = df.drop(index=range(0, 7))
 
     display(df[0:10])
